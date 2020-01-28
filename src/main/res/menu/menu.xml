@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Calenders"
+        android:title="Calenders"/>
+    <item
+        android:id="@+id/Main"
+        android:title="Main"
+        />
+    <item
+        android:id="@+id/TodayList"
+        android:title="Today"/>
+
+</menu>
