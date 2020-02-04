@@ -27,6 +27,58 @@
                     android:textSize="30dp"
                     android:layout_alignParentTop="true"
                     />
+                <TextView
+                    android:id="@+id/Now_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Now_Work"
+                    android:text="x월 x일 x시 x분 ~ x시 x분"
+                    android:textSize="15dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/Now_what"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="what"
+                    android:textSize="20dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/alram_Now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:src="@drawable/alram"
+                    android:maxHeight="40dp"
+                    android:maxWidth="40dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+
+                    />
+                <ImageButton
+                    android:id="@+id/Calcel_Now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:src="@drawable/close"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/alram_Now"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+
+
+                    />
+
 
             </RelativeLayout>
 
@@ -39,16 +91,70 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="다음 해야 할일"
-                android:textSize="30dp"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/Next_Work"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="다음 해야 할일"
+                    android:textSize="30dp"
+                    android:layout_alignParentTop="true"
 
-                />
+                    />
+                <TextView
+                    android:id="@+id/Next_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Next_Work"
+                    android:text="x월 x일 x시 x분 ~ x시 x분"
+                    android:textSize="15dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/Next_what"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="what"
+                    android:textSize="20dp"
+                    />
+                <ImageButton
+                    android:id="@+id/alram_Next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:src="@drawable/alram"
+                    android:maxHeight="40dp"
+                    android:maxWidth="40dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+
+                    />
+                <ImageButton
+                    android:id="@+id/Calcel_Next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:src="@drawable/close"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/alram_Next"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
 
 
+                    />
 
+            </RelativeLayout>
 
 
         </LinearLayout>
@@ -61,6 +167,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageButton
+                android:id="@+id/Secretary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/secretary"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+
+                />
+
+
+        </RelativeLayout>
 
 
     </LinearLayout>
